@@ -13,6 +13,25 @@ class Topstample extends Component {
         super(props);
         this.state = {
             productlist: [
+                
+                    {
+                        slug:'rkbazar',
+                        id:'1',
+                        discountPer:'10',
+                        photo:'/assets/images/items/2020-07-18.jpeg',
+                        name:'Grocery Food',
+                        price:'100',
+                        netPrice:'120'
+                   },
+                   {
+                    slug:'rkbazar2',
+                    id:'1',
+                    discountPer:'10',
+                    photo:'/assets/images/items/1-295.jpeg',
+                    name:'Grocery Food',
+                    price:'29',
+                    netPrice:'120'
+                    },
                    {
                         slug:'rkbazar',
                         id:'1',
@@ -22,6 +41,15 @@ class Topstample extends Component {
                         price:'499',
                         netPrice:'120'
                    },
+                   {
+                    slug:'rkbazar2',
+                    id:'1',
+                    discountPer:'10',
+                    photo:'/assets/images/items/bottles-of-global-soft-drink-brands-including-products-of-coca-cola-company-and-pepsico-WX0H55.jpeg',
+                    name:'Grocery Food',
+                    price:'40',
+                    netPrice:'120'
+                    },
                     {
                         slug:'rkbazar',
                         id:'1',
@@ -41,24 +69,8 @@ class Topstample extends Component {
                         price:'20',
                         netPrice:'120'
                    },
-                   {
-                    slug:'rkbazar2',
-                    id:'1',
-                    discountPer:'10',
-                    photo:'/assets/images/items/bottles-of-global-soft-drink-brands-including-products-of-coca-cola-company-and-pepsico-WX0H55.jpeg',
-                    name:'Grocery Food',
-                    price:'40',
-                    netPrice:'120'
-                    },
+                   
                     ,{
-                        slug:'rkbazar2',
-                        id:'1',
-                        discountPer:'10',
-                        photo:'/assets/images/items/1-295.jpeg',
-                        name:'Grocery Food',
-                        price:'29',
-                        netPrice:'120'
-                        },{
                     slug:'rkbazar2',
                     id:'1',
                     discountPer:'10',
@@ -68,14 +80,6 @@ class Topstample extends Component {
                     netPrice:'120'
                     },
                     {
-                        slug:'rkbazar',
-                        id:'1',
-                        discountPer:'10',
-                        photo:'/assets/images/items/2020-07-18.jpeg',
-                        name:'Grocery Food',
-                        price:'100',
-                        netPrice:'120'
-                   },{
                     slug:'rkbazar2',
                     id:'1',
                     discountPer:'10',
