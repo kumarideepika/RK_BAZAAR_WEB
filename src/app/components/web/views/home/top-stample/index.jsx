@@ -178,15 +178,10 @@ class Topstample extends Component {
                     </header>
                            
                          
-            <section class="section-name padding-y-sm">
-                <div class="container">
-
-                   
-
-
-
+            {/* <section className="section145">
+                <div class="container"> */}
                     <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-sm-12">
                             <div href="#" class="card card-product-grid">
                                 <a href="#" class="img-wrap"> <img src="../assets/images/items/Loose-Grocery.jpeg" /> </a>
                                 <figcaption class="info-wrap">
@@ -197,7 +192,7 @@ class Topstample extends Component {
                             </div>
                         </div>
 
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-sm-12">
                             <div href="#" class="card card-product-grid">
                                 <a href="#" class="img-wrap"> <img src="../assets/images/items/Branded-Grocery.jpeg" /> </a>
                                 <figcaption class="info-wrap">
@@ -208,7 +203,7 @@ class Topstample extends Component {
                                 </figcaption>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-sm-12">
                             <div href="#" class="card card-product-grid">
                                 <a href="#" class="img-wrap"> <img src="assets/images/items/Packaged-Food-1.jpeg" /> </a>
                                 <figcaption class="info-wrap">
@@ -218,7 +213,7 @@ class Topstample extends Component {
                                 </figcaption>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-sm-12">
                             <div href="#" class="card card-product-grid">
                                 <a href="#" class="img-wrap"> <img src="assets/images/items/Dairy-Frozen-Products.jpeg" /> </a>
                                 <figcaption class="info-wrap">
@@ -229,7 +224,7 @@ class Topstample extends Component {
                                 </figcaption>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-sm-12">
                             <div href="#" class="card card-product-grid">
                                 <a href="#" class="img-wrap"> <img src="assets/images/items/Snacks-Beverages-1.jpeg" /> </a>
                                 <figcaption class="info-wrap">
@@ -240,7 +235,7 @@ class Topstample extends Component {
                                 </figcaption>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-sm-12">
                             <div href="#" class="card card-product-grid">
                                 <a href="#" class="img-wrap"> <img src="assets/images/items/Packaged-Food.jpeg" /> </a>
                                 <figcaption class="info-wrap">
@@ -251,7 +246,7 @@ class Topstample extends Component {
                                 </figcaption>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-sm-12">
                             <div href="#" class="card card-product-grid">
                                 <a href="#" class="img-wrap"> <img src="assets/images/items/Household-Essentials.jpeg" /> </a>
                                 <figcaption class="info-wrap">
@@ -262,7 +257,7 @@ class Topstample extends Component {
                                 </figcaption>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-sm-12">
                             <div href="#" class="card card-product-grid">
                                 <a href="#" class="img-wrap"> <img src="assets/images/items/Personal-Care.jpeg" /> </a>
                                 <figcaption class="info-wrap">
@@ -274,7 +269,7 @@ class Topstample extends Component {
                             </div>
                             
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-sm-12">
                             <div href="#" class="card card-product-grid">
                                 <a href="#" class="img-wrap"> <img src="assets/images/items/Baby-Care.jpeg" /> </a>
                                 <figcaption class="info-wrap">
@@ -286,7 +281,7 @@ class Topstample extends Component {
                             </div>
                             
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-sm-12">
                             <div href="#" class="card card-product-grid">
                                 <a href="#" class="img-wrap"> <img src="assets/images/items/Bed-N-Bath.jpeg" /> </a>
                                 <figcaption class="info-wrap">
@@ -367,8 +362,8 @@ class Topstample extends Component {
                         </div>
                     </div>
 
-                </div>
-            </section>
+                {/* </div>
+            </section> */}
                         </div>
                         <Slider {...settings}>
                             {
