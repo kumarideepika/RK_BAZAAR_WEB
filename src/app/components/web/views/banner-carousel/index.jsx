@@ -19,15 +19,16 @@ export default class Bannerslider extends Component {
             <div>
                 <Category />
                 <Slider {...settings}>
+                <div className="owl-item">
+                        <img src="img/banners/wallpaper6.jpg" alt="supermarket" />
+                    </div>
                     <div className="owl-item">
-                        <img src="img/banners/offer-1.jpg" alt="supermarket" />
+                        <img src="img/banners/Copy of Grocery Delivery Poster - Made with PosterMyWall (4).jpg" alt="supermarket" />
                     </div >
                     <div className="owl-item">
-                        <img src="img/banners/offer-2.jpg" alt="supermarket" />
+                        <img src="img/banners/41630-3-groceries-picture-free-transparent-image-hd.png" alt="supermarket" />
                     </div>
-                    <div className="owl-item">
-                        <img src="img/banners/offer-3.jpg" alt="supermarket" />
-                    </div>
+                   
                 </Slider>
             </div>
         )

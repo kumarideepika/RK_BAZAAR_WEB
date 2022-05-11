@@ -38,7 +38,7 @@ class Navigation extends Component {
         return (
             <div>
                 <header className="header clearfix">
-                    <div className="navbar-top bg-success pt-2 pb-2">
+                    {/* <div className="navbar-top bg-success pt-2 pb-2">
                         <div className="container-fluid">
                             <div className="row">
                                 <div className="col-lg-12 text-center">
@@ -48,10 +48,13 @@ class Navigation extends Component {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     <nav className="navbar navbar-light navbar-expand-lg bg-dark bg-faded osahan-menu">
                         <div className="container-fluid">
-                            <a className="navbar-brand" href="/" style={{color: '#fff'}}> Big SuperMarket </a>
+                        <a className="navbar-brand" href="https://www.google.com/maps/place/R+K+Bazaar/@22.1747629,83.3533459,15z/data=!4m2!3m1!1s0x0:0xcc72f5a145203247?sa=X&ved=2ahUKEwi3j_6Ottb3AhXcUGwGHQhLCXEQ_BJ6BAg_EAU" style={{color: '#fff'}}> RK Bazaar SuperMarket  <br />
+                        <span class='rk-link' href="https://www.google.com/maps/place/R+K+Bazaar/@22.1747629,83.3533459,15z/data=!4m2!3m1!1s0x0:0xcc72f5a145203247?sa=X&ved=2ahUKEwi3j_6Ottb3AhXcUGwGHQhLCXEQ_BJ6BAg_EAU" style={{color: '#fff'}}>Kesharwani General Store </span>
+
+                        </a>
                             <button className="navbar-toggler navbar-toggler-white" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                                 <span className="navbar-toggler-icon" />
                             </button>
@@ -85,13 +88,18 @@ class Navigation extends Component {
                                                 </div>
                                             </div>
                                         </li>
+                                        {/* <li className="list-inline-item cart-btn">
+                                        <h5 className="btn-link" style={{color:'#fff'}}><a className="logo" href="https://www.google.com/maps/place/R+K+Bazaar/@22.1747629,83.3533459,15z/data=!4m2!3m1!1s0x0:0xcc72f5a145203247?sa=X&ved=2ahUKEwi3j_6Ottb3AhXcUGwGHQhLCXEQ_BJ6BAg_EAU"><i className="mdi mdi-account-circle" /></a></h5>
+                                        </li> */}
                                         <li className="list-inline-item cart-btn">
                                             <Cartsidebar />
                                         </li>
                                     </ul>
                                 </div>
                             </div>
+
                         </div>
+
                     </nav>
                 </header>
                 {/* login popup */}

@@ -82,7 +82,7 @@ class Checkout extends Component {
         const { customer, grandTotal, deliveryAddress, paymentmethod } = this.state;
         let { cartItems } = this.props
         let orderId = Math.floor(Math.random() * Math.floor(Math.random() * Date.now()))
-        this.setState({ isLoaded: true})
+        this.setState({ isLoaded: false})
         console.log("deliveryAddress", deliveryAddress)
         if(deliveryAddress){
             //payment system
@@ -185,9 +185,9 @@ class Checkout extends Component {
 
                 <section className="checkout-page section-padding">
                     <div className="container">
-                        {
-                            isLoaded ? <Loader />: ''
-                        }
+                        {/* {
+                            !isLoaded ? <Loader />: ''
+                        } */}
                         <div className="row">
                             <div className="col-md-8">
                                 <div className="checkout-step">

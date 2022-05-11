@@ -1,0 +1,153 @@
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.navbar{
+  background-color:#CE7013 !important;
+ 
+}
+.nav-link{
+  color: #fff !important;
+}
+#img {
+  flex: 1;
+  height: '10px';
+  width: '10px';
+  qproperty-alignment: 'AlignCenter';
+}
+.top{
+  color: #000 !important
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.navbar-brand {
+  color:#000 !important;
+  align-items: flex-start;
+  font-size:small;
+  align-self:flex-start;
+  align-content: flex-start;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.App-link {
+  color: #61dafc;
+}
+
+.text-1{
+  color: rgb(24, 10, 92) !important;
+  align-items: flex-start;
+  font-size: large;
+  align-self:flex-start;
+  align-content: flex-start;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+.price mt-1{
+  stroke-linecap: initial;
+}
+.col-md-9 {
+  flex: 1 2 150%;
+  width: 150%;
+  max-width: 250%;
+  border-width: 1;
+}
+.section-footer{
+
+  align-items: flex-start;
+  align-content: flex-start;
+  align-self: flex-start;
+  justify-content: flex-start;
+}
+.banner-wrap{
+  /* flex: 1 1 150%; */
+  width: 100%;
+  max-width: 250%;
+  /* border-width: 1; */
+  background-color: #136513;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
+.collapse-navbar-collapse{
+  /* background-color: #A30E07 !important; */
+}
+
+.header {
+  background: none;
+  
+  resize:vertical;
+}
+.header img {
+  width: 40px;
+  height: 40px;
+}
+.logo{
+  width: 10px;
+  resize: unset;
+  height: 10px;
+}
+.slider {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -100px;
+}
+
+.image {
+  width: 1200px;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 3rem;
+  color: rgb(241, 235, 235);
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 3rem;
+  color: #fff;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

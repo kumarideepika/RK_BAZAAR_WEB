@@ -81,7 +81,7 @@ export default class Category extends Component {
                                 </Link>
                             </div>
                         </div>
-                        <div className="item">
+                        {/* <div className="item">
                             <div className="category-item">
                                 <Link to={{
                                     pathname: `/shop/beverages`,
@@ -90,14 +90,24 @@ export default class Category extends Component {
                                     <h6>Beverages</h6>
                                 </Link>
                             </div>
+                        </div> */}
+                        <div className="item">
+                            <div className="category-item">
+                            <Link to={{
+                                    pathname: `/shop/pet-care`,
+                                }}>
+                                     <img className="img-fluid" src="img/category/Toys-Gift-Articles.jpeg" alt="pet-care" />
+                                    <h6>Toys</h6>
+                                </Link>
+                            </div>
                         </div>
                         <div className="item">
                             <div className="category-item">
                             <Link to={{
                                     pathname: `/shop/breakfast-dairy`,
                                 }}>
-                                    <img className="img-fluid" src="img/category/breakfastdairy.png" alt="breakfastdairy" />
-                                    <h6>Breakfast &amp; Dairy</h6>
+                                    <img className="img-fluid" src="img/category/Stationery-.jpeg" alt="breakfastdairy" />
+                                    <h6>Stationary </h6>
                                 </Link>
                             </div>
                         </div>
@@ -121,16 +131,7 @@ export default class Category extends Component {
                                 </Link>
                             </div>
                         </div>
-                        <div className="item">
-                            <div className="category-item">
-                            <Link to={{
-                                    pathname: `/shop/pet-care`,
-                                }}>
-                                     <img className="img-fluid" src="img/category/petcare.png" alt="pet-care" />
-                                    <h6>Pet Care</h6>
-                                </Link>
-                            </div>
-                        </div>
+                       
                         <div className="item">
                             <div className="category-item">
                             <Link to={{
@@ -141,6 +142,7 @@ export default class Category extends Component {
                                 </Link>
                             </div>
                         </div>
+                       
                     </Slider >
                 </div>
             </div >
